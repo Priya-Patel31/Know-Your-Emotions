@@ -1,0 +1,65 @@
+:root {
+  --font-color: #fff;
+  --click-color: #752b26;
+}
+.App {
+  font-family: "Merienda", cursive;
+  text-align: center;
+  color: var(--font-color);
+}
+body {
+  background-color: #66140e;
+}
+.meanings {
+  width: 60%;
+  height: 3.2rem;
+  margin: auto;
+  padding-bottom: 3rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+
+  color: var(--font-color);
+}
+.image {
+  width: 23%;
+  height: 10rem;
+}
+.title {
+  color: var(--font-color);
+  font-size: 2.2rem;
+}
+input {
+  border-radius: 0.5rem;
+  border: 0.1rem solid var(--font-color);
+  padding: 0.5rem;
+  width: 50%;
+  height: 2rem;
+  font: inherit;
+  margin-bottom: 1rem;
+}
+.description {
+  width: 40%;
+  margin: auto;
+  background-color: var(--click-color);
+  padding: 0.6rem 2rem;
+  font-size: 1.3rem;
+  border-radius: 0.2rem;
+}
+
+#glass {
+  padding-left: 0.3rem;
+  width: 2.5rem;
+}
+.text {
+  margin-top: 1rem;
+}
+.list-unordered {
+  list-style: none;
+}
+.list-items {
+  display: inline;
+  padding: 1.2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding-bottom: 0.5rem;
+}
